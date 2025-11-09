@@ -3,5 +3,7 @@ if not ok then
     config = require("config")
 end
 
-print(config.token)
-print(config.name)
+local Logger = require("src.logger")
+local logger = Logger.new("logs.txt", "WARN")
+
+logger:error("test")

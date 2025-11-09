@@ -1,2 +1,6 @@
+# Environment and local config
 .env
 config_local.lua
+
+# Logs
+logs.txt
