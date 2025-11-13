@@ -1,6 +1,6 @@
 -- Configuration file for LangStat
 -- Loads GitHub username and token from environment variables or defaults.
-require "dotenv".config() -- Load .env file if present
+require("dotenv").config() -- Load .env file if present
 
 local config = {
         -- GitHub username (used for fetching repositories)
