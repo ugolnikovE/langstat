@@ -67,7 +67,7 @@ if not stats then
 end
 
 print(string.rep("=", 44))
-print("LangStat — GitHub Language Statistics")
+print("langstat — GitHub Language Statistics")
 print(string.format("User: %s", config.name))
 print(os.date("Generated at: %Y-%m-%d %H:%M:%S"))
 print(string.rep("=", 44))

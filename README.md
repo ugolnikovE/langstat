@@ -1,6 +1,6 @@
-# LangStat
+# langstat
 
-LangStat is a lightweight Lua-based CLI tool that analyzes programming language usage across your public GitHub repositories.
+langstat is a lightweight Lua-based CLI tool that analyzes programming language usage across your public GitHub repositories.
 
 It is a small utility written in Lua to quickly visualize language distribution for any GitHub user.
 
@@ -95,9 +95,9 @@ Example output:
 
 ```
 ============================================
-LangStat — GitHub Language Statistics
+langstat — GitHub Language Statistics
 User: ugolnikovE
-Generated at: 2025-11-13 22:58:01
+Generated at: 2025-11-13 23:16:58
 ============================================
 Lua              █████████░░░░░░░░░░░ 47.93%
 C                █████████░░░░░░░░░░░ 45.12%
