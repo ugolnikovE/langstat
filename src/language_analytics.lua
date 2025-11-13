@@ -115,8 +115,19 @@ function LanguageAnalyzer:_create_statistic_row(lang, percent)
 end
 
 --- Prints the collected language statistics as a visual table
-function LanguageAnalyzer:print_statistic()
-        for i, item in ipairs(self.language_statistics_in_percents) do
+---@param limit number|nil Number to top languages to display (nil = all)
+function LanguageAnalyzer:print_statistic(limit)
+        local total = #self.language_statistics_in_percents
+        local count = tonumber(limit)
+
+        if not count or count <= 0 then
+                count = total
+        else
+                count = math.min(count, total)
+        end
+
+        for i = 1, count do
+                local item = self.language_statistics_in_percents[i]
                 print(self:_create_statistic_row(item.language, item.percent))
         end
 end
