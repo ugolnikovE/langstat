@@ -114,12 +114,13 @@ Dockerfile       ░░░░░░░░░░░░░░░░░░░░  0
 │   ├── language_analytics.lua
 │   └── logger.lua
 ├── tests/
-│   ├── test_github_agent.lua
-│   └── test_language_analytics.lua
+│   ├── github_agent_spec.lua
+│   └── language_analytics_spec.lua
 ├── config.lua
 ├── main.lua
 ├── README.md
-└── LICENSE
+├── LICENSE
+└── .gitignore
 ```
 
 ## 💡 Motivation
