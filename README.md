@@ -21,7 +21,7 @@ It is a small utility written in Lua to quickly visualize language distribution 
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourname/langstat.git
+git clone https://github.com/ugolnikovE/langstat.git
 cd langstat
 ```
 
