@@ -4,7 +4,7 @@ LangStat is a lightweight Lua-based CLI tool that analyzes programming language 
 
 It is a small utility written in Lua to quickly visualize language distribution for any GitHub user.
 
-## Features
+## ✨ Features
 
 * Fetches all public repositories of a GitHub user
 * Aggregates language usage using the official GitHub API
@@ -16,7 +16,7 @@ It is a small utility written in Lua to quickly visualize language distribution 
 * Configurable via `config.lua` or `config_local.lua`
 * Logs errors to file
 
-## Installation
+## 💻 Installation
 
 Clone the repository:
 
@@ -42,7 +42,7 @@ luarocks install dotenv
 
 > `ltn12` is included with LuaSocket, which often comes bundled with Lua distributions.
 
-## Configuration
+## ⚙️ Configuration
 
 Create a `.env` file in the project root:
 
@@ -71,7 +71,7 @@ return config
 * If your user has many repositories, it is recommended to provide a token to avoid hitting rate limits.
 * You can create a personal access token in GitHub Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate new token (no scopes needed for public repo access).
 
-## Usage
+## ▶️ Usage
 
 Run the tool:
 
@@ -105,7 +105,7 @@ CMake            █░░░░░░░░░░░░░░░░░░░  6
 Dockerfile       ░░░░░░░░░░░░░░░░░░░░  0.34%
 ```
 
-## Project Structure
+## 🗂 Project Structure
 
 ```
 .
@@ -126,6 +126,6 @@ Dockerfile       ░░░░░░░░░░░░░░░░░░░░  0
 
 This project was created to experiment with Lua and build a simple tool to visualize programming language usage in GitHub repositories.
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License — see `LICENSE` for details.
